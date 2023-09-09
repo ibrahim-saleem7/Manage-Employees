@@ -1,0 +1,17 @@
+.row{
+    width: 100%;
+}
+
+table{
+    text-align: center;
+}
+
+span{
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+    display: inline-block;
+}
+span:hover{
+    transform: scaleY(2);
+    font-weight: 700;
+}
