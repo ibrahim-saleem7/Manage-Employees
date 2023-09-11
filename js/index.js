@@ -57,7 +57,7 @@ function alertMassage(massage,type,className){
 
 let dbEmployees = []
 function addEmploy(){
-    if (validation() == true) {
+    if (validation(formAdd) == true) {
         if(cheackEmpolyee(formAdd.name.value.trim()) === false){
             let model = {
                 "name": formAdd.name.value.trim(),
