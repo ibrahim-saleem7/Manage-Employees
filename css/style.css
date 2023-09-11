@@ -11,7 +11,23 @@ span{
     transition: all 0.7s ease-in-out;
     display: inline-block;
 }
-span:hover{
-    transform: scaleY(2);
-    font-weight: 700;
+.arrow{
+    border: 0;
+    background: transparent;
+}
+
+.arrow:hover{
+    transform: scaleY(1.2);
+}
+
+tr:nth-child(1) .arrowUp:disabled{
+    opacity: 0.3;
+}
+
+tr:nth-last-child(1) .arrowDown:disabled{
+    opacity: 0.3;
+}
+
+.arrow:disabled:hover{
+    transform: scaleY(1);
 }
